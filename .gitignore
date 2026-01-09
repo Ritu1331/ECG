@@ -1,0 +1,24 @@
+# Virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# ML models & data
+*.h5
+*.onnx
+*.pt
+*.npy
+*.csv
+
+# Runtime folders
+data/
+uploads/
+reports/
+
+# Generated files
+static/ecg_plot.png
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/

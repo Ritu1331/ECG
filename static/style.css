@@ -1,0 +1,91 @@
+<style>
+/* ---------- GLOBAL ---------- */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(
+        135deg,
+        #f1f6fb,
+        #e6f0fa,
+        #dde9f5
+    ) !important;
+
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+/* ---------- HEADER ---------- */
+.app-title {
+    color: #c62828;
+    font-weight: 700;
+}
+
+/* ---------- CARD ---------- */
+.card {
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    border: none;
+}
+
+/* ---------- BUTTON ---------- */
+.btn-danger {
+    background: linear-gradient(135deg, #e53935, #c62828);
+    border: none;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.btn-danger:hover {
+    background: linear-gradient(135deg, #c62828, #b71c1c);
+}
+
+/* ---------- RESULT BOX ---------- */
+.alert-success {
+    background: #e8f5e9;
+    border-left: 6px solid #2e7d32;
+}
+
+.alert-warning {
+    background: #fff8e1;
+    border-left: 6px solid #f9a825;
+}
+
+.alert-danger {
+    background: #fdecea;
+    border-left: 6px solid #c62828;
+}
+
+/* ---------- ECG IMAGE ---------- */
+img {
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+}
+
+/* ---------- FOOTER ---------- */
+.footer-text {
+    color: #777;
+    font-size: 13px;
+    margin-top: 40px;
+}
+
+/* ---------- INPUT ---------- */
+.form-control, .form-select {
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* ---------- PDF BUTTON ---------- */
+.btn-primary {
+    background: linear-gradient(135deg, #1e88e5, #1565c0);
+    border: none;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #1565c0, #0d47a1);
+}
+</style>
