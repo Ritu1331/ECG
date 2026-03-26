@@ -75,6 +75,20 @@ System outputs:
 ![overall](screenshots/overall.png)
 
 
+📊 📁 DATASET USED
+🫀 MIT-BIH Arrhythmia Dataset
+🔗 Official Link:
+
+👉 https://physionet.org/content/mitdb/1.0.0/
+
+🧠 Simple Explanation
+- Contains real ECG recordings
+- Collected from 47 patients
+- Each record is 30 minutes long
+- Sampling rate: 360 Hz
+- Includes heartbeat annotations (labels)
+
+
 
 
 
