@@ -1,42 +1,51 @@
-🫀 ECG Arrhythmia Detection System
+<img width="1919" height="969" alt="image" src="https://github.com/user-attachments/assets/5a126a2a-ca94-40ed-9e4b-3f23fbb1aba1" />🫀 ECG Arrhythmia Detection System
 
 AI-Assisted Cardiac Risk Analysis Web Application
 
-📌 Project Overview
+📌 Overview
 
-This project is an AI-based ECG Arrhythmia Detection System that helps analyze ECG (Electrocardiogram) signals and predict whether a patient’s heart rhythm is Normal or Abnormal.
+The ECG Arrhythmia Detection System is a web-based application that analyzes ECG (Electrocardiogram) signals using Deep Learning (CNN + LSTM) to detect abnormal heart rhythms.
 
-The system:
+It helps in:
 
-Takes ECG signal data (CSV file) as input
-Uses a deep learning model (CNN + LSTM) for prediction
-Calculates heart rate (BPM)
-Generates a medical PDF report
-Allows sending the report to a cardiologist via email
-Displays ECG waveform and risk level on a web interface
+Identifying Normal vs Abnormal ECG
+Calculating Heart Rate (BPM)
+Determining Risk Level
+Generating a Medical PDF Report
+Sending the report to a Cardiologist via Email
+🎯 Problem Statement
+ECG interpretation requires expertise
+Manual analysis is time-consuming
+Early detection of heart issues is critical
 
-⚠️ Disclaimer:
-This system is for educational and screening purposes only.
-It is NOT a replacement for professional medical diagnosis.
+👉 This system uses AI to assist in quick preliminary diagnosis
 
-🛠️ Technologies Used
+🧠 How It Works (Simple Explanation)
+User uploads ECG CSV file
+Signal is filtered & cleaned
+Peaks (heartbeats) are detected
+Model predicts each heartbeat
+Average probability is calculated
+System outputs:
+Diagnosis
+Risk level
+BPM (Heart Rate)
+🛠️ Tech Stack
 🔹 Backend
 Python
-Flask (Web Framework)
-
+Flask
 🔹 Machine Learning
 TensorFlow / Keras
-CNN + LSTM Deep Learning Model
+CNN + LSTM Model
 SciPy (Signal Processing)
-NumPy & Pandas
-
 🔹 Frontend
-HTML5
-CSS3
+HTML
+CSS
 Bootstrap
+🔹 Additional Tools
+Matplotlib → ECG Graph
+ReportLab → PDF Generation
+SMTP → Email Sending
 
-🔹 Other Tools
-Matplotlib (ECG Plot)
-ReportLab (PDF Generation)
-SMTP (Email Sending)
+
 
