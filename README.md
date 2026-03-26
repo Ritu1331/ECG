@@ -78,8 +78,8 @@ System outputs:
 📊 📁 DATASET USED
 🫀 MIT-BIH Arrhythmia Dataset
 
-🔗 Official Link:
-👉 https://physionet.org/content/mitdb/1.0.0/
+
+🔗 Official Link: 👉 https://physionet.org/content/mitdb/1.0.0/
 
 🧠 Simple Explanation
 - Contains real ECG recordings
