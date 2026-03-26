@@ -8,51 +8,52 @@ The ECG Arrhythmia Detection System is a web-based application that analyzes ECG
 
 It helps in:
 
-Identifying Normal vs Abnormal ECG
-Calculating Heart Rate (BPM)
-Determining Risk Level
-Generating a Medical PDF Report
-Sending the report to a Cardiologist via Email
+1) Identifying Normal vs Abnormal ECG
+2) Calculating Heart Rate (BPM)
+3) Determining Risk Level
+4) Generating a Medical PDF Report
+5) Sending the report to a Cardiologist via Email
 
 
 🎯 Problem Statement
-ECG interpretation requires expertise
-Manual analysis is time-consuming
-Early detection of heart issues is critical
+- ECG interpretation requires expertise
+- Manual analysis is time-consuming
+- Early detection of heart issues is critical
 
 👉 This system uses AI to assist in quick preliminary diagnosis
 
 🧠 How It Works (Simple Explanation)
-User uploads ECG CSV file
-Signal is filtered & cleaned
-Peaks (heartbeats) are detected
-Model predicts each heartbeat
-Average probability is calculated
+1) User uploads ECG CSV file
+2) Signal is filtered & cleaned
+3) Peaks (heartbeats) are detected
+4) Model predicts each heartbeat
+5) Average probability is calculated
+
 System outputs:
-Diagnosis
-Risk level
-BPM (Heart Rate)
+1) Diagnosis
+2) Risk level
+3) BPM (Heart Rate)
 
 
 🛠️ Tech Stack
 🔹 Backend
-Python
-Flask
+- Python
+- Flask
 
 🔹 Machine Learning
-TensorFlow / Keras
-CNN + LSTM Model
-SciPy (Signal Processing)
+- TensorFlow / Keras
+- CNN + LSTM Model
+- SciPy (Signal Processing)
 
 🔹 Frontend
-HTML
-CSS
-Bootstrap
+- HTML
+- CSS
+- Bootstrap
 
 🔹 Additional Tools
-Matplotlib → ECG Graph
-ReportLab → PDF Generation
-SMTP → Email Sending
+- Matplotlib → ECG Graph
+- ReportLab → PDF Generation
+- SMTP → Email Sending
 
 
 
