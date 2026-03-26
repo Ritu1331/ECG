@@ -1,4 +1,4 @@
-<img width="1919" height="969" alt="image" src="https://github.com/user-attachments/assets/5a126a2a-ca94-40ed-9e4b-3f23fbb1aba1" />🫀 ECG Arrhythmia Detection System
+🫀 ECG Arrhythmia Detection System
 
 AI-Assisted Cardiac Risk Analysis Web Application
 
@@ -46,6 +46,8 @@ Bootstrap
 Matplotlib → ECG Graph
 ReportLab → PDF Generation
 SMTP → Email Sending
+
+
 
 
 
