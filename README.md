@@ -13,6 +13,8 @@ Calculating Heart Rate (BPM)
 Determining Risk Level
 Generating a Medical PDF Report
 Sending the report to a Cardiologist via Email
+
+
 🎯 Problem Statement
 ECG interpretation requires expertise
 Manual analysis is time-consuming
@@ -30,18 +32,23 @@ System outputs:
 Diagnosis
 Risk level
 BPM (Heart Rate)
+
+
 🛠️ Tech Stack
 🔹 Backend
 Python
 Flask
+
 🔹 Machine Learning
 TensorFlow / Keras
 CNN + LSTM Model
 SciPy (Signal Processing)
+
 🔹 Frontend
 HTML
 CSS
 Bootstrap
+
 🔹 Additional Tools
 Matplotlib → ECG Graph
 ReportLab → PDF Generation
