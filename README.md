@@ -56,6 +56,21 @@ System outputs:
 - ReportLab → PDF Generation
 - SMTP → Email Sending
 
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home](screenshots/home.png)
+
+### 📊 Analysis Result
+![Result](screenshots/result.png)
+
+### 📈 ECG Graph
+![ECG](screenshots/ecg_signal.png)
+
+
+### 📧 Email Sent
+![Email](screenshots/email_sent.png)
+
 
 
 
